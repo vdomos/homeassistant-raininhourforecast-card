@@ -13,10 +13,10 @@ Copie du fichier `meteofrance-raininhourforecast.js` du dépot dans `<config dir
 **Example:**
 
 ```bash
-cd <config directory>/www
-mkdir meteofrance
-cd meteofrance
-wget https://github.com/vdomos/homeassistant-raininhourforecast-card/raw/master/meteofrance-raininhourforecast.js
+$ cd <config directory>/www
+$ mkdir meteofrance
+$ cd meteofrance
+$ wget https://github.com/vdomos/homeassistant-raininhourforecast-card/raw/master/meteofrance-raininhourforecast.js
 ```
 
 ### Configuration de la ressource
