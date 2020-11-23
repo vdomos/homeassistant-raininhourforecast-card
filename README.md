@@ -8,7 +8,7 @@ Cette carte affiche la prévision de pluie dans l'heure en s'appuyant sur l'enti
 
 ### Copie du fichier
 
-Installe `raininhourforecast card` en copiant le fichier  `meteofrance/meteofrance-raininhourforecast.js` du dépot dans `<config directory>/www/meteofrance/meteofrance-raininhourforecast.js` de l'instance Home Assistant.
+Copie du fichier `meteofrance/meteofrance-raininhourforecast.js` du dépot dans `<config directory>/www/meteofrance/` de l'instance Home Assistant.
 
 **Example:**
 
@@ -21,7 +21,7 @@ wget https://github.com/vdomos/homeassistant-raininhourforecast-card/raw/master/
 
 ### Configuration de la ressource
 
-Faire le lien de la ressource js dans votre configuration `configuration.yaml`.
+Faire le lien de la ressource *js* dans votre configuration `configuration.yaml`.
 
 ```yaml
 lovelace:
@@ -33,8 +33,8 @@ lovelace:
 
 ### Ajout de la "custom-card" 
 
-Ajouter la nouvelle "card" dans la GUI home-assistant en ajoutant une carte manuelle sur une vue et en la renseignant avec la **custom-card** et 
-l'entité **meteo-france**:
+Ajouter la nouvelle "card" dans la GUI home-assistant en ajoutant une *custom-card* sur une vue et en la renseignant avec le type **custom:meteofrance-raininhourforecast** et 
+l'entité ****sensor.<VILLE>_next_rain**** *meteo-france*
 
 
 **Example:**
