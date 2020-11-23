@@ -1,8 +1,8 @@
-# raininhourforecast card
+# rainInHourForecast card
 
 Cette carte affiche la prévision de pluie dans l'heure en s'appuyant sur l'entité **sensor.<VILLE>_next_rain** de l'intégration **meteo-france**
 
-![RainInHour1](img/Meteo-France_RainInHour_Card_1.png)
+![RainInHour1](Meteo-France_RainInHour_Card_1.png)
 
 ## Installation
 
@@ -33,7 +33,7 @@ lovelace:
 
 ### Ajout de la "custom-card" 
 
-Ajouter la nouvealle "card" dans la GUI home-assistant en ajoutant une carte manuelle sur une vue et la renseigant avec la **custom-card** et 
+Ajouter la nouvelle "card" dans la GUI home-assistant en ajoutant une carte manuelle sur une vue et en la renseignant avec la **custom-card** et 
 l'entité **meteo-france**:
 
 
@@ -44,5 +44,6 @@ type: 'custom:meteofrance-raininhourforecast'
 entity: sensor.nancy_next_rain
 ```
 
-![RainInHour1](img/Meteo-France_RainInHour_Card_1.png)
+![RainInHour1](Meteo-France_RainInHour_Card_1.png)
+
 
