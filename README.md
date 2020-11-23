@@ -33,7 +33,7 @@ lovelace:
 
 ### Ajout de la "custom-card" 
 
-Ajouter la nouvealle "card" dans la GUI home-assistant en ajoutant une carte *custom-card*.
+Ajouter la nouvelle "card" dans la GUI home-assistant en ajoutant une carte *custom-card*.
 
 
 **Example:**
