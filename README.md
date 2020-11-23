@@ -44,6 +44,6 @@ type: 'custom:meteofrance-raininhourforecast'
 entity: sensor.nancy_next_rain
 ```
 
-![RainInHour1](Meteo-France_RainInHour_Card_1.png)
+![RainInHour1](Meteo-France_RainInHour_Card_2.png)
 
 
