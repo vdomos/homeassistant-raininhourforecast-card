@@ -8,7 +8,7 @@ Cette carte affiche la prévision de pluie dans l'heure en s'appuyant sur l'enti
 
 ### Copie du fichier
 
-Copie du fichier `meteofrance/meteofrance-raininhourforecast.js` du dépot dans `<config directory>/www/meteofrance/` de l'instance Home Assistant.
+Copie du fichier `meteofrance-raininhourforecast.js` du dépot dans `<config directory>/www/meteofrance/` de l'instance Home Assistant.
 
 **Example:**
 
@@ -16,7 +16,7 @@ Copie du fichier `meteofrance/meteofrance-raininhourforecast.js` du dépot dans 
 cd <config directory>/www
 mkdir meteofrance
 cd meteofrance
-wget https://github.com/vdomos/homeassistant-raininhourforecast-card/raw/master/raininhourforecast.js
+wget https://github.com/vdomos/homeassistant-raininhourforecast-card/raw/master/meteofrance-raininhourforecast.js
 ```
 
 ### Configuration de la ressource
